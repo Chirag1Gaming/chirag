@@ -154,13 +154,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: "Laravel Intern",
+    company_name: "E2M Solutions",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "July 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
+      "Developing and maintaining web applications using Laravel and codeigniter technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Php Developer",
+    company_name: "Whiz Solutions",
+    icon: tekisky,
+    iconBg: "#383E56",
+    date: "July 2022 - September 2023",
+    points: [
+      "Developing and maintaining web applications using Laravel and codeigniter technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Senior Web Application Developer",
+    company_name: "Techerudite",
+    icon: tekisky,
+    iconBg: "#383E56",
+    date: "September 2023 - Present",
+    points: [
+      "Developing and maintaining web applications using Laravel and codeigniter technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
