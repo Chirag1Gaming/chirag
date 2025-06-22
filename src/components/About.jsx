@@ -37,7 +37,7 @@ const ServiceCard = ({ index, title, icon }) => {
   }, index * 0.2);
 
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[300px] w-full">
       <div ref={cardRef} className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
         <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
           <img src={icon} alt="web-development" className="w-16 h-16 object-contain" />
@@ -77,7 +77,7 @@ const About = () => {
         scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </p>
 
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-items-center gap-10">
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-6 lg:grid-cols-3 justify-items-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
