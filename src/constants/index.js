@@ -219,30 +219,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Faces Consent",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "https://facesconsent.com/  | Laravel, React, Node.js A modern digital consent form platform designed for medical and aesthetic practitioners. It allows secure form sharing, digital signatures, client management, and document storage with GDPR compliance and real-time updates.",
     tags: [
       {
-        name: "react",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Consent Forms",
         color: "green-text-gradient",
       },
- 
+      {
+        name: "Medical Tech",
+        color: "blue-text-gradient",
+      }
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://facesconsent.com/",
   },
   {
     name: "GearXpert",
