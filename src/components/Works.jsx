@@ -155,11 +155,9 @@ const Works = () => {
       >
         {projects.map((project, index) => (
           <SwiperSlide key={`project-${index}`}>
-            <div className="project-card">
-              <div className="works-container mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5">
-                <div key={`project-${index}`} className="project-card">
-                  <ProjectCard index={index} {...project} />
-                </div>
+            <div className="project-card">              
+              <div key={`project-${index}`} className="project-card">
+                <ProjectCard index={index} {...project} />
               </div>
             </div>
           </SwiperSlide>
