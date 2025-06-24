@@ -221,7 +221,7 @@ const projects = [
   {
     name: "Faces Consent",
     description:
-      "https://facesconsent.com/  | Laravel, React, Node.js A modern digital consent form platform designed for medical and aesthetic practitioners. It allows secure form sharing, digital signatures, client management, and document storage with GDPR compliance and real-time updates.",
+      "Laravel, React, Node.js A modern digital consent form platform designed for medical and aesthetic practitioners. It allows secure form sharing, digital signatures, client management, and document storage with GDPR compliance and real-time updates.",
     tags: [
       {
         name: "Laravel",
@@ -248,50 +248,299 @@ const projects = [
     source_code_link: "https://facesconsent.com/",
   },
   {
-    name: "GearXpert",
+    name: "Kanvas Medical",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "A responsive healthcare website that showcases services, manages inquiries, and maintains SEO-friendly architecture for visibility and performance.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "Healthcare Website",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Seo",
+        color: "white-text-gradient",
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://kanvasmedicalgroup.com/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Anglez",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "A modern social media app enabling users to share posts, follow others, and interact via a highly scalable Node and GraphQL backend.",
     tags: [
       {
-        name: "react",
+        name: "Node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "GraphQL",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Social Media",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Real Time",
         color: "green-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
+  },
+  {
+    name: "MK Collection",
+    description:
+      "An e-commerce platform for clothing, featuring cart, wishlist, category filters, and secure payments, built for scale and speed.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "E-Commerce",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Clothing Store",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project3,
+    source_code_link: "",
+  },
+  {
+    name: "PMS – Project Management System",
+    description:
+      "A lightweight yet powerful platform for managing projects, teams, and deadlines with task assignment and real-time progress updates.",
+    tags: [
+      {
+        name: "CodeIgniter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Project Management",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Team Collaboration",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Techerudite Site",
+    description:
+      "A corporate website that presents company services, portfolios, and contact features in a sleek, user-friendly interface.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Company Profile",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Responsive Design",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Kanvas Blog",
+    description:
+      "A WordPress blog delivering medical insights, tips, and updates with easy admin management and SEO optimization.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blogging",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Healthcare",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Faces Blog",
+    description:
+      "A WordPress blog delivering medical insights, tips, and updates with easy admin management and SEO optimization.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blogging",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Healthcare",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Faces Admin",
+    description: "An admin dashboard built with Vue.js for managing users, documents, and system settings on the Faces Consent platform.",
+    tags: [
+      {
+        name: "Vue.js",  
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Admin Panel",  
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dashboard",
+        color: "white-text-gradient",
+      }
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "GIS – Guardian International System",
+    description: "An enterprise system built to manage risk assessment operations, logistics, and team coordination for international services.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Enterprise Software",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Security Management",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "3ES – Practice Management",
+    description: "A professional system tailored for medical practices, offering appointment scheduling, patient records, and billing.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Practice Management",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Accountancy Software",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Xpert – Booking System",
+    description: "An advanced booking platform supporting service listings, availability calendars, and automatic confirmations.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Booking System",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Scheduling",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Glow Dubai",
+    description: "A CodeIgniter-based beauty service website with booking capabilities, service details, and an elegant design.",
+    tags: [
+      {
+        name: "CodeIgniter",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Beauty Services",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Booking Site",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Brodex – Plumbing System",
+    description: "A commercial plumbing services website with appointment booking, service overviews, and contact form integration.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Service Website",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Plumbing",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
+  },
+  {
+    name: "Society Management System",
+    description: "An internship project to manage society members, maintenance tracking, notices, and complaints digitally.",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Society App",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Internship Project",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "",
   },
 ];
 
